@@ -1,0 +1,68 @@
+.addAgentContainer {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addAgentContainer h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .addAgentContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addAgentContainer label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .addAgentContainer input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .addAgentContainer button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addAgentContainer button:hover {
+    background-color: #45a049;
+  }
+  
+  .errorMessage {
+    color: red;
+    text-align: center;
+  }
+  
+  .successMessage {
+    color: green;
+    text-align: center;
+  }
+  
+  .backButton {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .backButton:hover {
+    background-color: #0056b3;
+  }
+  
